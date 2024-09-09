@@ -714,10 +714,6 @@ footer p{
 
 	}
 
-	#img-logo{
-	width: 45%;
-	}
-
 	#menu-logo-burguer > .a-menu{
 		margin-right: 25px;
 		background-color: #B45C13;
@@ -726,7 +722,7 @@ footer p{
 		font-weight: bold;
 		font-size: .7em;
 		text-align: center;
-		width: 180px;
+		width: 140px;
 	}
 
 	#burguer{
@@ -852,7 +848,7 @@ footer p{
 	}
 
 	.txt-lupus, .img-lupus{
-		border-radius: 40px;
+		border-radius: 20px;
 	}
 
 	.container-fibro{
