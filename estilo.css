@@ -659,7 +659,7 @@ footer p{
 	}
 
 	#menu-logo-burguer{
-		display: block;
+		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		height: 80px;
@@ -667,7 +667,18 @@ footer p{
 	}
 
 	#img-logo{
-		height: 100%;
+	width: 45%;
+	}
+
+	#menu-logo-burguer > .a-menu{
+		margin-right: 25px;
+		background-color: #B45C13;
+		padding: 10px 0;
+		border-radius: 15px;
+		font-weight: bold;
+		font-size: .8em;
+		text-align: center;
+		width: 150px;
 	}
 
 	#burguer{
