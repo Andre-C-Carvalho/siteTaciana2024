@@ -61,7 +61,8 @@
 }
 
 .a-menu:hover, .a-menu:active{
-	color: #FFF8ED;
+	color: #B45C13;
+	background-color: #FFF8ED;
 }
 
 a{ 
@@ -319,7 +320,12 @@ ul{
     padding: 30px;
     text-align: justify;
 	text-indent: 25px;
- }
+}
+
+#menu-curiosidades > .a-menu:hover, .a-menu:active{
+	color: #B45C13;
+	background-color: #FFEDD2;
+}
 
 #locais_atendimento{
 	background-color: #FFF8ED;
@@ -428,6 +434,10 @@ h4{
 	font-family: 'Roboto',sans-serif;
 	font-size: 1.2rem;
 	padding-top: 30px;
+}
+
+picture > img{
+	box-shadow: 5px 5px 5px rgb(156, 153, 153);
 }
 
 #bt-contato2{
@@ -725,6 +735,11 @@ footer p{
 		width: 140px;
 	}
 
+	#menu-logo-burguer > .a-menu:hover, .a-menu:active{
+		color: #B45C13;
+		background-color: #FFF8ED;
+	}
+
 	#burguer{
 		width: 100%;
 		border-top: .3pt solid #000;
@@ -939,9 +954,19 @@ footer p{
 		margin: 60px 0 50px 0;
 	}
 
+	#bt-contato > .a-menu:hover, .a-menu:active{
+		color: #B45C13;
+		background-color: #FFEDD2;
+	} 
+
 	#bt-contato2{
 		margin: 0 0 35px 0;
 	}
+
+	#bt-contato2 > .a-menu:hover, .a-menu:active{
+		color: #B45C13;
+		background-color: #FFEDD2;
+	} 
 
 	#local2 > div > p{
 		font-size: 1em;
