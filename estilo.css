@@ -115,7 +115,7 @@ header, #banner{
 
 main p{
 	font-family: 'Roboto',sans-serif;
-	font-size: 1.4rem;
+	font-size: 1.3em;
     padding: 30px;
     text-align: justify;
 	text-indent: 25px;
@@ -141,7 +141,7 @@ main p{
 
 #sintomas p{
     font-family: 'Roboto',sans-serif;
-	font-size: 1.4rem;
+	font-size: 1.3rem;
     padding: 20px;
     text-align: justify;
 	text-indent: 25px;
@@ -469,8 +469,16 @@ footer p{
 
 @media screen and (max-width: 1230px){
 
+	main p{
+		font-size: 1.2em;
+	 }
+
 	#perfil{
 		height: 600px;
+	}
+
+	#sintomas p, li{
+		font-size: 1.2rem;
 	}
 
 	.local{
@@ -533,6 +541,10 @@ footer p{
 		background-color: #FFF8ED;
 	 }
 
+	 main p{
+		font-size: 1.1em;
+	 }
+
 	 #perfil{
 		height: 700px;
 		padding: 25x;
@@ -547,6 +559,10 @@ footer p{
 
 	.textos-sintomas{
 		width: 80%;
+	}
+
+	#sintomas p, li{
+		font-size: 1.1rem;
 	}
 
 	#img-sintomas{
@@ -696,9 +712,21 @@ footer p{
 		align-items: center;
 	}
 
+	#curiosidades-txt-botao p{
+		font-size: 1.1em;
+	}
+
 	.container-iframe{
 		width: 500px;
 		box-shadow: 5px 5px 5px rgb(156, 153, 153);
+	}
+
+	#locais_atendimento  p{
+		font-size: 1.1rem;
+	}
+
+	#local2 > div >p{
+		font-size: 1.1em;
 	}
 	
 }
@@ -886,6 +914,10 @@ footer p{
 		padding: 0;
 	}
 
+	#locais_atendimento  p{
+		font-size: 1em;
+	}
+
 	.local{
 		display: flex;
 		flex-direction: column-reverse;
@@ -933,21 +965,13 @@ footer p{
 		margin: 0;
 	}
 
-	.endereco p{
-		font-size: .9rem;
+	#locais_atendimento > p{
+		font-size: .5em;
 	}
 
 	.end-resultado{
 		padding: 0;
 		margin: 0;
-	}
-
-	.contato p{
-		font-size: 1rem;
-	}
-
-	.contato h4{
-		display: block;
 	}
 
 	#bt-contato{
